@@ -8,6 +8,8 @@
 import UIKit
 
 class ProductsCoverCollectionViewCell: UICollectionViewCell {
+    
+    //MARK: - Outlets
     @IBOutlet weak var badgeLabel: UILabel!
     @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var productBrand: UILabel!
@@ -28,7 +30,6 @@ class ProductsCoverCollectionViewCell: UICollectionViewCell {
         btnLabel.layer.cornerRadius = 6
         btnLabel.layer.borderWidth = 1
         btnLabel.layer.borderColor = UIColor(red:231/255, green:93/255, blue:36/255, alpha: 1).cgColor
-
     }
 
     @IBAction func addToCart(_ sender: Any) {

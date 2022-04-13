@@ -9,6 +9,7 @@ import UIKit
 
 class MainCollectionViewCell: UICollectionViewCell {
  
+    //MARK: - Outlets
     @IBOutlet weak var blockImage: UIImageView!
     @IBOutlet weak var title: UILabel!
 }

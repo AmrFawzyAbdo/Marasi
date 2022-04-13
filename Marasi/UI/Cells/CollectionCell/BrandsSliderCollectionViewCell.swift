@@ -9,5 +9,12 @@ import UIKit
 
 class BrandsSliderCollectionViewCell: UICollectionViewCell {
     
+    //MARK: - Outlets
     @IBOutlet weak var brandImage: UIImageView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+
+    }
 }

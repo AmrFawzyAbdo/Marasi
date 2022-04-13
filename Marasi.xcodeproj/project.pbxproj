@@ -158,6 +158,32 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		A51D7669280726A4003DEF6C /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A554D00E28047AB400011221 /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		A51D766A280726DF003DEF6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A51D764C28064CDE003DEF6C /* Fonts */,
+				A554D01328047AB600011221 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A51D766B2807272C003DEF6C /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A554D01028047AB400011221 /* Main.storyboard */,
+				A554D01528047AB600011221 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		A554CFFE28047AB400011221 = {
 			isa = PBXGroup;
 			children = (
@@ -179,16 +205,13 @@
 		A554D00928047AB400011221 /* Marasi */ = {
 			isa = PBXGroup;
 			children = (
+				A554D00A28047AB400011221 /* AppDelegate.swift */,
 				A51D763F28063616003DEF6C /* Extensions */,
-				A51D764C28064CDE003DEF6C /* Fonts */,
 				A554D0252804D25F00011221 /* Model */,
 				A554D0242804D22800011221 /* Network */,
-				A554D01F2804812D00011221 /* View controllers */,
-				A554D01E2804812600011221 /* Cells */,
-				A554D00A28047AB400011221 /* AppDelegate.swift */,
-				A554D01028047AB400011221 /* Main.storyboard */,
-				A554D01328047AB600011221 /* Assets.xcassets */,
-				A554D01528047AB600011221 /* LaunchScreen.storyboard */,
+				A554D01F2804812D00011221 /* UI */,
+				A51D766A280726DF003DEF6C /* Resources */,
+				A51D766B2807272C003DEF6C /* StoryBoards */,
 				A554D01828047AB600011221 /* Info.plist */,
 			);
 			path = Marasi;
@@ -203,12 +226,13 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		A554D01F2804812D00011221 /* View controllers */ = {
+		A554D01F2804812D00011221 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A554D00E28047AB400011221 /* HomeViewController.swift */,
+				A51D7669280726A4003DEF6C /* HomeViewController */,
+				A554D01E2804812600011221 /* Cells */,
 			);
-			path = "View controllers";
+			path = UI;
 			sourceTree = "<group>";
 		};
 		A554D0242804D22800011221 /* Network */ = {

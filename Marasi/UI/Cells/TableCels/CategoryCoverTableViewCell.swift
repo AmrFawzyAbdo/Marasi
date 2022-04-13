@@ -1,5 +1,5 @@
 //
-//  BrandsSliderTableViewCell.swift
+//  CategoryCoverTableViewCell.swift
 //  Marasi
 //
 //  Created by Amr Ghonim on 13/04/2022.
@@ -7,10 +7,12 @@
 
 import UIKit
 
-class BrandsSliderTableViewCell: UITableViewCell {
+class CategoryCoverTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var headingLbl: UILabel!
+    //MARK: - Outlets
+    @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var collectionView: UICollectionView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

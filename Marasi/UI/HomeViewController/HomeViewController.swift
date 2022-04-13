@@ -19,7 +19,6 @@ class HomeViewController: UIViewController {
     //MARK: - Variables
     var homeContent : [Banner]?
     let progressHUD = ProgressHUD(text: "")
-    var mainStill = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,7 +53,6 @@ class HomeViewController: UIViewController {
         //Setting the padding label
         headLabel.edgeInset = UIEdgeInsets(top: 2, left: 3, bottom: 2, right: 3)
     }
-    
    
     
 }
@@ -75,15 +73,24 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource{
             let url = URL(string:  item?.backgroundImage ?? "")
             cell.backgroundImage.kf.indicatorType = .activity
             cell.backgroundImage.kf.setImage(with: url)
+            cell.collectionView.dataSource = self
+            cell.collectionView.delegate = self
+            cell.collectionView.tag = indexPath.row
+            cell.collectionView.reloadData()
             return cell
         }else if homeContent?[indexPath.row].type == .categoryProductsSlider{
             let cell = tableView.dequeueReusableCell(withIdentifier: "CategProductsSliderTableViewCell", for: indexPath) as! CategProductsSliderTableViewCell
-            if homeContent?[indexPath.row].content?.heading == "الأكثر رواجاً ⚡️"{
+            let heading = homeContent?[indexPath.row].content?.heading
+            if heading == "الأكثر رواجاً ⚡️" || heading == "اشتر عدد 4 بقيمة 2 فقط 🎊"{
                 cell.allBtn.isHidden = false
             }else{
                 cell.allBtn.isHidden = true
             }
             cell.departmentName.text = item?.heading
+            cell.collectionView.dataSource = self
+            cell.collectionView.delegate = self
+            cell.collectionView.tag = indexPath.row
+            cell.collectionView.reloadData()
             return cell
         }else if homeContent?[indexPath.row].type == .productsCover{
             let cell = tableView.dequeueReusableCell(withIdentifier: "ProductsCoverTableViewCell", for: indexPath) as! ProductsCoverTableViewCell
@@ -91,6 +98,10 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource{
             let url = URL(string:  item?.backgroundImage ?? "")
             cell.backgroundImage.kf.indicatorType = .activity
             cell.backgroundImage.kf.setImage(with: url)
+            cell.collectionView.dataSource = self
+            cell.collectionView.delegate = self
+            cell.collectionView.tag = indexPath.row
+            cell.collectionView.reloadData()
             return cell
             
         }else if homeContent?[indexPath.row].type == .categoryCover{
@@ -98,13 +109,26 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource{
             let url = URL(string:  item?.backgroundImage ?? "")
             cell.backgroundImage.kf.indicatorType = .activity
             cell.backgroundImage.kf.setImage(with: url)
+            cell.collectionView.dataSource = self
+            cell.collectionView.delegate = self
+            cell.collectionView.tag = indexPath.row
+            cell.collectionView.reloadData()
             return cell
         }else if homeContent?[indexPath.row].type == .brandsSlider{
             let cell = tableView.dequeueReusableCell(withIdentifier: "BrandsSliderTableViewCell", for: indexPath) as! BrandsSliderTableViewCell
             cell.headingLbl.text = item?.heading
+            cell.collectionView.dataSource = self
+            cell.collectionView.delegate = self
+            cell.collectionView.tag = indexPath.row
+            print(cell.collectionView.tag)
+            cell.collectionView.reloadData()
             return cell
         }else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "CategProductsSliderTableViewCell", for: indexPath) as! CategProductsSliderTableViewCell
+            cell.collectionView.dataSource = self
+            cell.collectionView.delegate = self
+            cell.collectionView.tag = indexPath.row
+            cell.collectionView.reloadData()
             return cell
         }
  
@@ -112,38 +136,12 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
 
+        // hide and show search button
         if indexPath.row >= 3 {
             searchBtn.isHidden = false
         }else{
            searchBtn.isHidden = true
         }
-        
-        if let cell = cell as? MainTableViewCell {
-                cell.collectionView.dataSource = self
-                cell.collectionView.delegate = self
-                cell.collectionView.tag = indexPath.row
-                cell.collectionView.reloadData()
-            }else if let cell = cell as? CategProductsSliderTableViewCell {
-                cell.collectionView.dataSource = self
-                cell.collectionView.delegate = self
-                cell.collectionView.tag = indexPath.row
-                cell.collectionView.reloadData()
-            }else if let cell = cell as? ProductsCoverTableViewCell {
-                cell.collectionView.dataSource = self
-                cell.collectionView.delegate = self
-                cell.collectionView.tag = indexPath.row
-                cell.collectionView.reloadData()
-            }else if let cell = cell as? CategoryCoverTableViewCell {
-                cell.collectionView.dataSource = self
-                cell.collectionView.delegate = self
-                cell.collectionView.tag = indexPath.row
-                cell.collectionView.reloadData()
-            }else if let cell = cell as? BrandsSliderTableViewCell {
-                cell.collectionView.dataSource = self
-                cell.collectionView.delegate = self
-                cell.collectionView.tag = indexPath.row
-                cell.collectionView.reloadData()
-            }
     }
     
 }
@@ -154,17 +152,16 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource{
 extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        print(homeContent?[collectionView.tag].type)
         if homeContent?[collectionView.tag].type == TypeEnum.main{
             return homeContent?[collectionView.tag].content?.blocks?.count ?? 0
         }else if homeContent?[collectionView.tag].type == .categoryProductsSlider {
-            return homeContent?[collectionView.tag].content?.products?.count ?? 0
-        }else if homeContent?[collectionView.tag].type == .brandsSlider{
             return homeContent?[collectionView.tag].content?.products?.count ?? 0
         }else if homeContent?[collectionView.tag].type == .productsCover{
             return homeContent?[collectionView.tag].content?.products?.count ?? 0
         }else if homeContent?[collectionView.tag].type == .categoryCover{
             return homeContent?[collectionView.tag].content?.blocks?.count ?? 0
-        }else if homeContent?[collectionView.tag].type == .brandsSlider {
+        }else if homeContent?[collectionView.tag].type == TypeEnum.brandsSlider {
             return homeContent?[collectionView.tag].content?.brands?.count ?? 0
         }else{
             return homeContent?[collectionView.tag].content?.products?.count ?? 0

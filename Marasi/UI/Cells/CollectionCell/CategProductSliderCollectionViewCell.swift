@@ -8,6 +8,8 @@
 import UIKit
 
 class CategProductSliderCollectionViewCell: UICollectionViewCell {
+    
+    //MARK: - Outlets
     @IBOutlet weak var badgeLAbel: UILabel!
     @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var productBrand: UILabel!

@@ -9,6 +9,7 @@ import Foundation
 
 struct Constants {
     struct ProductionServer {
+        // Base url
         static let baseURL = "http://178.128.171.40/"
     }
     

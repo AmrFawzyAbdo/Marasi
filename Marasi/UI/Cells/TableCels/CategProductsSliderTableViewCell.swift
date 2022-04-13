@@ -8,6 +8,8 @@
 import UIKit
 
 class CategProductsSliderTableViewCell: UITableViewCell {
+    
+    //MARK: - Outlets
     @IBOutlet weak var departmentName: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var allBtn: UIButton!

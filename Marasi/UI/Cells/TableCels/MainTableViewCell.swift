@@ -9,7 +9,7 @@ import UIKit
 
 class MainTableViewCell: UITableViewCell {
 
-
+    //MARK: - Outlets
     @IBOutlet weak var searchTF: UITextField!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var backgroundImage: UIImageView!

@@ -9,6 +9,7 @@ import UIKit
 
 class ProductsCoverTableViewCell: UITableViewCell {
     
+    //MARK: - Outlets
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var headingTitle: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
