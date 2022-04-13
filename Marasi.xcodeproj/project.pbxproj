@@ -7,23 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51D76382805D57F003DEF6C /* BrandsSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D76372805D57F003DEF6C /* BrandsSliderCollectionViewCell.swift */; };
+		A51D763A2805D7A6003DEF6C /* CategProductSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D76392805D7A6003DEF6C /* CategProductSliderCollectionViewCell.swift */; };
+		A51D763E28062CFE003DEF6C /* CategProductsSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D763D28062CFE003DEF6C /* CategProductsSliderTableViewCell.swift */; };
+		A51D764128063626003DEF6C /* StrikeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D764028063626003DEF6C /* StrikeLabel.swift */; };
+		A51D764328063859003DEF6C /* ProductsCoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D764228063859003DEF6C /* ProductsCoverTableViewCell.swift */; };
+		A51D764528063874003DEF6C /* ProductsCoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D764428063874003DEF6C /* ProductsCoverCollectionViewCell.swift */; };
+		A51D764728064207003DEF6C /* CategoryCoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D764628064207003DEF6C /* CategoryCoverCollectionViewCell.swift */; };
+		A51D76492806421E003DEF6C /* CategoryCoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D76482806421E003DEF6C /* CategoryCoverTableViewCell.swift */; };
+		A51D764B28064646003DEF6C /* BrandsSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D764A28064646003DEF6C /* BrandsSliderTableViewCell.swift */; };
+		A51D7656280651AD003DEF6C /* Cairo-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D764D28064D02003DEF6C /* Cairo-VariableFont_wght.ttf */; };
+		A51D7657280651B6003DEF6C /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D765128064D57003DEF6C /* Cairo-ExtraLight.ttf */; };
+		A51D7658280651B6003DEF6C /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D765428064D57003DEF6C /* Cairo-Light.ttf */; };
+		A51D7659280651B6003DEF6C /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D765328064D57003DEF6C /* Cairo-Regular.ttf */; };
+		A51D765A280651B6003DEF6C /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D765228064D57003DEF6C /* Cairo-Black.ttf */; };
+		A51D765B280651B6003DEF6C /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D764F28064D57003DEF6C /* Cairo-SemiBold.ttf */; };
+		A51D765C280651B6003DEF6C /* Cairo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D765028064D57003DEF6C /* Cairo-Medium.ttf */; };
+		A51D765D280651B6003DEF6C /* Cairo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D764E28064D57003DEF6C /* Cairo-ExtraBold.ttf */; };
+		A51D765E280651B6003DEF6C /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51D765528064D57003DEF6C /* Cairo-Bold.ttf */; };
+		A51D766028066B55003DEF6C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D765F28066B55003DEF6C /* Alert.swift */; };
+		A51D766228066B85003DEF6C /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D766128066B85003DEF6C /* ProgressHUD.swift */; };
+		A51D766428066C19003DEF6C /* CollectionDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D766328066C19003DEF6C /* CollectionDirection.swift */; };
+		A51D7666280686B6003DEF6C /* TextFieldIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D7665280686B6003DEF6C /* TextFieldIcon.swift */; };
+		A51D766828068D83003DEF6C /* LabelRadiusAndPAdding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D766728068D83003DEF6C /* LabelRadiusAndPAdding.swift */; };
 		A554D00B28047AB400011221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D00A28047AB400011221 /* AppDelegate.swift */; };
-		A554D00D28047AB400011221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D00C28047AB400011221 /* SceneDelegate.swift */; };
-		A554D00F28047AB400011221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D00E28047AB400011221 /* ViewController.swift */; };
+		A554D00F28047AB400011221 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D00E28047AB400011221 /* HomeViewController.swift */; };
 		A554D01228047AB400011221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A554D01028047AB400011221 /* Main.storyboard */; };
 		A554D01428047AB600011221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A554D01328047AB600011221 /* Assets.xcassets */; };
 		A554D01728047AB600011221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A554D01528047AB600011221 /* LaunchScreen.storyboard */; };
+		A554D0212804815A00011221 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D0202804815A00011221 /* MainTableViewCell.swift */; };
+		A554D0232804816D00011221 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D0222804816D00011221 /* MainCollectionViewCell.swift */; };
+		A554D0272804D27A00011221 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D0262804D27A00011221 /* Constants.swift */; };
+		A554D0292804D2B100011221 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D0282804D2B100011221 /* APIClient.swift */; };
+		A554D02B2804D4A200011221 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554D02A2804D4A200011221 /* HomeModel.swift */; };
+		E25239E234C0E4DF10D4AFC8 /* Pods_Marasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AC86266933E5F7BB6C7A46 /* Pods_Marasi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12E1FCA2191EA6B5ED6764B5 /* Pods-Marasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marasi.release.xcconfig"; path = "Target Support Files/Pods-Marasi/Pods-Marasi.release.xcconfig"; sourceTree = "<group>"; };
+		83AC86266933E5F7BB6C7A46 /* Pods_Marasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51D76372805D57F003DEF6C /* BrandsSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		A51D76392805D7A6003DEF6C /* CategProductSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategProductSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		A51D763D28062CFE003DEF6C /* CategProductsSliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategProductsSliderTableViewCell.swift; sourceTree = "<group>"; };
+		A51D764028063626003DEF6C /* StrikeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeLabel.swift; sourceTree = "<group>"; };
+		A51D764228063859003DEF6C /* ProductsCoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCoverTableViewCell.swift; sourceTree = "<group>"; };
+		A51D764428063874003DEF6C /* ProductsCoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCoverCollectionViewCell.swift; sourceTree = "<group>"; };
+		A51D764628064207003DEF6C /* CategoryCoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCoverCollectionViewCell.swift; sourceTree = "<group>"; };
+		A51D76482806421E003DEF6C /* CategoryCoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCoverTableViewCell.swift; sourceTree = "<group>"; };
+		A51D764A28064646003DEF6C /* BrandsSliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsSliderTableViewCell.swift; sourceTree = "<group>"; };
+		A51D764D28064D02003DEF6C /* Cairo-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A51D764E28064D57003DEF6C /* Cairo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A51D764F28064D57003DEF6C /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		A51D765028064D57003DEF6C /* Cairo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Medium.ttf"; sourceTree = "<group>"; };
+		A51D765128064D57003DEF6C /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A51D765228064D57003DEF6C /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		A51D765328064D57003DEF6C /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		A51D765428064D57003DEF6C /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		A51D765528064D57003DEF6C /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		A51D765F28066B55003DEF6C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A51D766128066B85003DEF6C /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		A51D766328066C19003DEF6C /* CollectionDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDirection.swift; sourceTree = "<group>"; };
+		A51D7665280686B6003DEF6C /* TextFieldIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldIcon.swift; sourceTree = "<group>"; };
+		A51D766728068D83003DEF6C /* LabelRadiusAndPAdding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelRadiusAndPAdding.swift; sourceTree = "<group>"; };
 		A554D00728047AB400011221 /* Marasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A554D00A28047AB400011221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A554D00C28047AB400011221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A554D00E28047AB400011221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A554D00E28047AB400011221 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A554D01128047AB400011221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A554D01328047AB600011221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A554D01628047AB600011221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A554D01828047AB600011221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A554D0202804815A00011221 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		A554D0222804816D00011221 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		A554D0262804D27A00011221 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A554D0282804D2B100011221 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A554D02A2804D4A200011221 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		E48F33BB415FA0DCDD5F7CFC /* Pods-Marasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marasi.debug.xcconfig"; path = "Target Support Files/Pods-Marasi/Pods-Marasi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +89,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25239E234C0E4DF10D4AFC8 /* Pods_Marasi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B785E28199A2DFE5048FAF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E48F33BB415FA0DCDD5F7CFC /* Pods-Marasi.debug.xcconfig */,
+				12E1FCA2191EA6B5ED6764B5 /* Pods-Marasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A51D763B28062CC1003DEF6C /* TableCels */ = {
+			isa = PBXGroup;
+			children = (
+				A554D0202804815A00011221 /* MainTableViewCell.swift */,
+				A51D763D28062CFE003DEF6C /* CategProductsSliderTableViewCell.swift */,
+				A51D764228063859003DEF6C /* ProductsCoverTableViewCell.swift */,
+				A51D76482806421E003DEF6C /* CategoryCoverTableViewCell.swift */,
+				A51D764A28064646003DEF6C /* BrandsSliderTableViewCell.swift */,
+			);
+			path = TableCels;
+			sourceTree = "<group>";
+		};
+		A51D763C28062CCE003DEF6C /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A554D0222804816D00011221 /* MainCollectionViewCell.swift */,
+				A51D76392805D7A6003DEF6C /* CategProductSliderCollectionViewCell.swift */,
+				A51D764428063874003DEF6C /* ProductsCoverCollectionViewCell.swift */,
+				A51D764628064207003DEF6C /* CategoryCoverCollectionViewCell.swift */,
+				A51D76372805D57F003DEF6C /* BrandsSliderCollectionViewCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		A51D763F28063616003DEF6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A51D764028063626003DEF6C /* StrikeLabel.swift */,
+				A51D765F28066B55003DEF6C /* Alert.swift */,
+				A51D766128066B85003DEF6C /* ProgressHUD.swift */,
+				A51D766328066C19003DEF6C /* CollectionDirection.swift */,
+				A51D7665280686B6003DEF6C /* TextFieldIcon.swift */,
+				A51D766728068D83003DEF6C /* LabelRadiusAndPAdding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A51D764C28064CDE003DEF6C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A51D764D28064D02003DEF6C /* Cairo-VariableFont_wght.ttf */,
+				A51D765228064D57003DEF6C /* Cairo-Black.ttf */,
+				A51D765528064D57003DEF6C /* Cairo-Bold.ttf */,
+				A51D764E28064D57003DEF6C /* Cairo-ExtraBold.ttf */,
+				A51D765128064D57003DEF6C /* Cairo-ExtraLight.ttf */,
+				A51D765428064D57003DEF6C /* Cairo-Light.ttf */,
+				A51D765028064D57003DEF6C /* Cairo-Medium.ttf */,
+				A51D765328064D57003DEF6C /* Cairo-Regular.ttf */,
+				A51D764F28064D57003DEF6C /* Cairo-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		A554CFFE28047AB400011221 = {
 			isa = PBXGroup;
 			children = (
 				A554D00928047AB400011221 /* Marasi */,
 				A554D00828047AB400011221 /* Products */,
+				0B785E28199A2DFE5048FAF6 /* Pods */,
+				CBF3DEAC774B73C65525BC18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +179,61 @@
 		A554D00928047AB400011221 /* Marasi */ = {
 			isa = PBXGroup;
 			children = (
+				A51D763F28063616003DEF6C /* Extensions */,
+				A51D764C28064CDE003DEF6C /* Fonts */,
+				A554D0252804D25F00011221 /* Model */,
+				A554D0242804D22800011221 /* Network */,
+				A554D01F2804812D00011221 /* View controllers */,
+				A554D01E2804812600011221 /* Cells */,
 				A554D00A28047AB400011221 /* AppDelegate.swift */,
-				A554D00C28047AB400011221 /* SceneDelegate.swift */,
-				A554D00E28047AB400011221 /* ViewController.swift */,
 				A554D01028047AB400011221 /* Main.storyboard */,
 				A554D01328047AB600011221 /* Assets.xcassets */,
 				A554D01528047AB600011221 /* LaunchScreen.storyboard */,
 				A554D01828047AB600011221 /* Info.plist */,
 			);
 			path = Marasi;
+			sourceTree = "<group>";
+		};
+		A554D01E2804812600011221 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A51D763B28062CC1003DEF6C /* TableCels */,
+				A51D763C28062CCE003DEF6C /* CollectionCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A554D01F2804812D00011221 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A554D00E28047AB400011221 /* HomeViewController.swift */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		A554D0242804D22800011221 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A554D0262804D27A00011221 /* Constants.swift */,
+				A554D0282804D2B100011221 /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A554D0252804D25F00011221 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A554D02A2804D4A200011221 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBF3DEAC774B73C65525BC18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83AC86266933E5F7BB6C7A46 /* Pods_Marasi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A554D01B28047AB600011221 /* Build configuration list for PBXNativeTarget "Marasi" */;
 			buildPhases = (
+				C1B28AE46DD754BA0362E56D /* [CP] Check Pods Manifest.lock */,
 				A554D00328047AB400011221 /* Sources */,
 				A554D00428047AB400011221 /* Frameworks */,
 				A554D00528047AB400011221 /* Resources */,
+				4B1BD8AB7ED25D3BEB17C76A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +296,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51D7656280651AD003DEF6C /* Cairo-VariableFont_wght.ttf in Resources */,
+				A51D7659280651B6003DEF6C /* Cairo-Regular.ttf in Resources */,
+				A51D765B280651B6003DEF6C /* Cairo-SemiBold.ttf in Resources */,
+				A51D7657280651B6003DEF6C /* Cairo-ExtraLight.ttf in Resources */,
+				A51D765C280651B6003DEF6C /* Cairo-Medium.ttf in Resources */,
+				A51D765A280651B6003DEF6C /* Cairo-Black.ttf in Resources */,
 				A554D01728047AB600011221 /* LaunchScreen.storyboard in Resources */,
 				A554D01428047AB600011221 /* Assets.xcassets in Resources */,
+				A51D7658280651B6003DEF6C /* Cairo-Light.ttf in Resources */,
 				A554D01228047AB400011221 /* Main.storyboard in Resources */,
+				A51D765E280651B6003DEF6C /* Cairo-Bold.ttf in Resources */,
+				A51D765D280651B6003DEF6C /* Cairo-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B1BD8AB7ED25D3BEB17C76A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marasi/Pods-Marasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marasi/Pods-Marasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marasi/Pods-Marasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B28AE46DD754BA0362E56D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A554D00328047AB400011221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A554D00F28047AB400011221 /* ViewController.swift in Sources */,
+				A51D764128063626003DEF6C /* StrikeLabel.swift in Sources */,
+				A554D0272804D27A00011221 /* Constants.swift in Sources */,
+				A51D766228066B85003DEF6C /* ProgressHUD.swift in Sources */,
+				A51D763A2805D7A6003DEF6C /* CategProductSliderCollectionViewCell.swift in Sources */,
+				A51D766028066B55003DEF6C /* Alert.swift in Sources */,
+				A554D00F28047AB400011221 /* HomeViewController.swift in Sources */,
+				A554D0212804815A00011221 /* MainTableViewCell.swift in Sources */,
+				A51D76382805D57F003DEF6C /* BrandsSliderCollectionViewCell.swift in Sources */,
+				A51D764728064207003DEF6C /* CategoryCoverCollectionViewCell.swift in Sources */,
+				A554D02B2804D4A200011221 /* HomeModel.swift in Sources */,
 				A554D00B28047AB400011221 /* AppDelegate.swift in Sources */,
-				A554D00D28047AB400011221 /* SceneDelegate.swift in Sources */,
+				A51D766428066C19003DEF6C /* CollectionDirection.swift in Sources */,
+				A51D7666280686B6003DEF6C /* TextFieldIcon.swift in Sources */,
+				A51D766828068D83003DEF6C /* LabelRadiusAndPAdding.swift in Sources */,
+				A51D763E28062CFE003DEF6C /* CategProductsSliderTableViewCell.swift in Sources */,
+				A51D764B28064646003DEF6C /* BrandsSliderTableViewCell.swift in Sources */,
+				A554D0232804816D00011221 /* MainCollectionViewCell.swift in Sources */,
+				A51D76492806421E003DEF6C /* CategoryCoverTableViewCell.swift in Sources */,
+				A51D764528063874003DEF6C /* ProductsCoverCollectionViewCell.swift in Sources */,
+				A51D764328063859003DEF6C /* ProductsCoverTableViewCell.swift in Sources */,
+				A554D0292804D2B100011221 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +524,7 @@
 		};
 		A554D01C28047AB600011221 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48F33BB415FA0DCDD5F7CFC /* Pods-Marasi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +552,7 @@
 		};
 		A554D01D28047AB600011221 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E1FCA2191EA6B5ED6764B5 /* Pods-Marasi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
