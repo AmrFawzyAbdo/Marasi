@@ -120,7 +120,6 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource{
             cell.collectionView.dataSource = self
             cell.collectionView.delegate = self
             cell.collectionView.tag = indexPath.row
-            print(cell.collectionView.tag)
             cell.collectionView.reloadData()
             return cell
         }else{
@@ -152,7 +151,6 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource{
 extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print(homeContent?[collectionView.tag].type)
         if homeContent?[collectionView.tag].type == TypeEnum.main{
             return homeContent?[collectionView.tag].content?.blocks?.count ?? 0
         }else if homeContent?[collectionView.tag].type == .categoryProductsSlider {
